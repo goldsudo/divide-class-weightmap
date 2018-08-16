@@ -13,25 +13,25 @@
 [基于班级条件权重表的试探性学生分班算法.doc](http://goldsudo.com/wp-content/uploads/2017/12/%E5%9F%BA%E4%BA%8E%E7%8F%AD%E7%BA%A7%E6%9D%A1%E4%BB%B6%E6%9D%83%E9%87%8D%E8%A1%A8%E7%9A%84%E8%AF%95%E6%8E%A2%E6%80%A7%E5%AD%A6%E7%94%9F%E5%88%86%E7%8F%AD%E7%AE%97%E6%B3%95-1.docx)
 
 ### 目录
-1 学生分班业务分析
-&ensp;&ensp;&ensp;&ensp;1.1 需求分析
-&ensp;&ensp;&ensp;&ensp;1.2 难点分析
-2 分班问题的解决思路
-3 基于班级条件权重表的试探性学生分班算法
-&ensp;&ensp;&ensp;&ensp;3.1 算法步骤
-&ensp;&ensp;&ensp;&ensp;3.2 算法详解
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.2.1 权重表数据结构
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.2.2 权重计算规则
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.2.3 更新权重表
-&ensp;&ensp;&ensp;&ensp;3.3 算法解释
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.3.1 建立权重表以及计算权重的原因
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.3.2 区别对待第一个未分班的学生以及跳过分班选择不唯一的学生的原因
-&ensp;&ensp;&ensp;&ensp;3.4 算法复杂度分析
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.4.1 时间复杂度
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.4.2 空间复杂度
-&ensp;&ensp;&ensp;&ensp;3.5 算法扩展性
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.5.1 规则权重系数的扩展性
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.5.2 算法对聚合型分班规则的扩展性
+1 学生分班业务分析<br>
+&ensp;&ensp;&ensp;&ensp;1.1 需求分析<br>
+&ensp;&ensp;&ensp;&ensp;1.2 难点分析<br>
+2 分班问题的解决思路<br>
+3 基于班级条件权重表的试探性学生分班算法<br>
+&ensp;&ensp;&ensp;&ensp;3.1 算法步骤<br>
+&ensp;&ensp;&ensp;&ensp;3.2 算法详解<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.2.1 权重表数据结构<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.2.2 权重计算规则<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.2.3 更新权重表<br>
+&ensp;&ensp;&ensp;&ensp;3.3 算法解释<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.3.1 建立权重表以及计算权重的原因<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.3.2 区别对待第一个未分班的学生以及跳过分班选择不唯一的学生的原因<br>
+&ensp;&ensp;&ensp;&ensp;3.4 算法复杂度分析<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.4.1 时间复杂度<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.4.2 空间复杂度<br>
+&ensp;&ensp;&ensp;&ensp;3.5 算法扩展性<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.5.1 规则权重系数的扩展性<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3.5.2 算法对聚合型分班规则的扩展性<br>
 
 ---
 ### 1 学生分班业务分析
